@@ -1,0 +1,9 @@
+FPGA Board: Intel DE10 (Cyclone V - XC5SEMA)
+Clock Frequency: 50 MHz
+LED Output: LEDR0                ← LED showing Morse code
+Switch Inputs: SW2_0             ← Switches to select letters A-H
+Push Buttons:
+  - KEY0: Reset                  ← Resets the project
+  - KEY1: Start                  ← Starts Morse code transmission
+Pin Assignments: See constraints/pin_assignment.txt
+Notes: Project tested on real hardware
