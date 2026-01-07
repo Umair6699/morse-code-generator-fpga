@@ -37,7 +37,7 @@ The system converts selected letters into Morse code signals and displays them o
 
 ## Simulation / Hardware Proof
 - **Video** demonstrating the Morse code output on Intel DE10 FPGA  
-- File: [`simulation/hardware_demo.mp4`](simulation/hardware_demo.mp4)  
+- File: [`simulation/Hardware_demo.mp4`](simulation/Hardware_demo.mp4)  
 - Shows **LEDR0 blinking** according to the selected letter in Morse code  
 
 ---
