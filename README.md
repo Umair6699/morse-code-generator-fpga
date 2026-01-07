@@ -21,7 +21,7 @@ The system converts selected letters into Morse code signals and displays them o
 - **LED Output:** LEDR0  
 - **Switch Inputs:** SW2_0  
 - **Push Buttons:** KEY0 (Reset), KEY1 (Start)  
-- **Pin Assignments:** See [`constraints/morse_code.qsf`](constraints/morse_code.qsf)  
+- **Pin Assignments:** See [`constraints/Pin_assignment.txt`](constraints/Pin_assignment.txt)  
 - **Notes:** Project tested on real hardware  
 
 ---
@@ -34,20 +34,6 @@ The system converts selected letters into Morse code signals and displays them o
 
 ---
 
-## Folder Structure
-
-morse-code-generator-fpga/
-├── rtl/ ← Verilog source code
-│ └── morse_code.v
-├── constraints/ ← FPGA pin assignment file 
-│ └── Pin_assignment.txt
-├── simulation/ ← Video showing hardware working
-│ └── hardware_demo.mp4
-├── board/ ← FPGA board info
-│ └── fpga_board_info.txt
-└── README.md ← Project explanation
-
----
 
 ## Simulation / Hardware Proof
 - **Video** demonstrating the Morse code output on Intel DE10 FPGA  
@@ -59,7 +45,7 @@ morse-code-generator-fpga/
 ## How to Use
 1. Connect the Intel DE10 FPGA board to your PC.  
 2. Load the **Verilog code** (`rtl/morse_code.v`) in Quartus Prime.  
-3. Apply **pin assignments** from [`constraints/morse_code.qsf`](constraints/morse_code.qsf).  
+3. Apply **pin assignments** from [`constraints/Pin_assignment.txt`](constraints/Pin_assignment.txt).  
 4. Compile the project and upload it to the FPGA.  
 5. Set the switches SW2_0 to select a letter.  
 6. Press KEY1 to start the Morse code transmission.  
